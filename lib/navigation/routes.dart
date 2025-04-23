@@ -4,7 +4,7 @@ import 'package:bora/screens/profile_screen.dart';
 import 'package:bora/screens/search_screen.dart';
 import '../screens/login_screen.dart';
 import '../screens/register_sceen.dart';
-import '../screens/home_screen.dart';
+// import '../screens/home_screen.dart';
 
 class AppRoutes {
   static const String login = '/';
@@ -16,7 +16,7 @@ class AppRoutes {
 
   static Map<String, WidgetBuilder> routes = {
     login: (context) => LoginScreen(),
-    home: (context) => HomeScreen(),
+    // home: (context) => HomeScreen(),
     register: (context) => RegisterScreen(),
     bookingList: (context) => BookingListScreen(),
     profile: (context) => ProfileScreen(),

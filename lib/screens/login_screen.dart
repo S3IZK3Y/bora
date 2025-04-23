@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rental_app/navigation/routes.dart';
-import 'package:rental_app/styles/app_styles.dart';
-import 'package:rental_app/theme/app_colors.dart';
+import 'package:bora/navigation/routes.dart';
+import 'package:bora/styles/app_styles.dart';
+import 'package:bora/theme/app_colors.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

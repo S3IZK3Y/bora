@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-// TODO::
-=======
 import 'package:flutter/material.dart';
-import 'package:rental_app/models/post_model.dart';
-import 'package:rental_app/widgets/post.dart';
+import 'package:bora/models/post_model.dart';
+import 'package:bora/widgets/post.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
@@ -133,4 +130,4 @@ class CustomSearchDelegate extends SearchDelegate {
         ),
       ];
 }
->>>>>>> 6b3ca4b5abe655dff86c6e6895ff5ad59be83edd
+
